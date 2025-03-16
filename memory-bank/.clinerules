@@ -1,0 +1,68 @@
+# Cline Rules
+
+This file captures important patterns, preferences, and project intelligence that help me (Cline) work more effectively. It serves as my learning journal for this project, documenting insights that aren't obvious from the code or formal documentation alone.
+
+## Project Patterns
+
+### Documentation Patterns
+- Memory Bank files should be written in Markdown with clear section headers
+- Use Mermaid diagrams to visualize relationships and workflows
+- Each file has a specific purpose and scope - avoid duplication across files
+- Update `activeContext.md` and `progress.md` with each significant task
+- Update other files when their relevant aspects change
+
+### Workflow Patterns
+- Always read ALL Memory Bank files at the start of EVERY task
+- Begin with `projectbrief.md` and follow the documentation hierarchy
+- After completing a task, update relevant documentation files
+- When discovering new patterns, document them in this file
+
+## User Preferences
+
+### Communication Style
+- Technical and direct communication is preferred
+- Focus on concrete progress and clear documentation
+- Provide visual representations when explaining complex relationships
+- Document decisions and their rationales
+
+### Documentation Preferences
+- Maintain clear separation between different types of documentation
+- Use consistent formatting across all Memory Bank files
+- Include specific examples where helpful
+- Keep documentation concise but comprehensive
+
+## Project Intelligence
+
+### Critical Implementation Details
+- Memory Bank follows a strict hierarchical structure
+- Documentation updates are triggered by specific events (new patterns, significant changes, etc.)
+- The `.clinerules` file is updated continuously as new patterns emerge
+
+### Known Challenges
+- Maintaining documentation currency without slowing development
+- Balancing comprehensive documentation with navigability
+- Ensuring all implicit knowledge is captured explicitly
+
+### Evolution of Project Decisions
+- Initial decision to use Markdown for simplicity and version control compatibility
+- Hierarchical structure chosen to provide clear reading path
+- Separation of factual documentation from learned patterns
+
+## Tool Usage Patterns
+
+### Markdown
+- Use ## for main sections and ### for subsections
+- Use bullet points for lists of related items
+- Use numbered lists for sequential steps
+- Use tables for structured data
+- Use code blocks for file structures and examples
+
+### Mermaid Diagrams
+- Use flowcharts for hierarchical relationships
+- Use sequence diagrams for workflows and interactions
+- Use clear labels for all nodes and connections
+- Keep diagrams focused on one aspect of the system
+
+---
+
+Note: This file will evolve as we work together. It captures the "unwritten rules" of the project that help me work more effectively with you and the codebase.
